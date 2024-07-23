@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background: url(https://wallpapercave.com/wp/wp8121950.jpg) fixed ; 
+}
+
+.buttons {
+    font-size: 110px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.fonts{
+    font-family: Verdana, sans-serif;
+    font: bold;
+}
+
+#label{ 
+font-size: 1em;
+}
+
+#rulesButton{
+    border-radius: 10px;
+    font-size: 20px;
+}
