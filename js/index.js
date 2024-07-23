@@ -9,8 +9,4 @@ function Redirect() {
     window.location.href = "rules.html";
 }
 
-function getBack() {
-    window.location.replace("index.html");
-}
-
     
