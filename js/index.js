@@ -1,7 +1,7 @@
 
 let modal = document.getElementById("myModal");
-let myButton = document.getElementById("myButton");
-let span = document.getElementById("close")[0];
+let myButton = document.getElementById("myBtn");
+let span = document.getElementsByClassName("close")[0];
 
 
 myButton.onclick = function() {
