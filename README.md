@@ -26,4 +26,4 @@ Finalized de project creating the flow for the game with math.random method
 
 
 <h1>Project URL</h1>
-https://rock-paper-scissors-4lopjr1eq.vercel.app/
+https://rock-paper-scissors-six-chi.vercel.app/
