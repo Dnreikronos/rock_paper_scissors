@@ -10,29 +10,46 @@
     <h1 id="myH1" class="fonts">Rock Paper and Scissors Game</h1>
     <h4 id="myH4" class="fonts">What is your choise?</h4>
 
-    <button class="buttons">✌️</button>
-    <button class="buttons">🖐️</button>
-    <button class="buttons">👊</button> <br />
-    <br />
+    <div id="choises">
+      <button class="buttons" onclick="playGame('scissor')">✌️</button>
+      <button class="buttons" onclick="playGame('paper')">🖐️</button>
+      <button class="buttons" onclick="playGame('rock')">👊</button> <br />
+      <br />
+    </div>
 
-    <label for="buttons" id="label" class="fonts">Score: </label> <br />
+    <label for="buttons" id="playerScore" class="fonts">Player Score: </label>
+    <br />
+    <br />
+    <label for="buttons" id="computerScore" class="fonts"
+      >Computer Score:
+    </label>
+    <br />
+    <br />
+    <label for="buttons" id="result" class="fonts"></label>
+    <br />
     <br />
 
     <button id="myBtn">Open Rules</button>
 
     <div id="myModal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>
-          The game is played with three possible hand signals that represent a
-          rock, paper, and scissors. The rock is a closed fist; paper is a flat
-          hand with fingers and thumb extended and the palm facing downward; and
-          scissors is a fist with the index and middle fingers fully extended
-          toward the opposing player. Rock wins against scissors; paper wins
-          against rock; and scissors wins against paper. If both players throw
-          the same hand signal, it is considered a tie, and play resumes until
-          there is a clear winner
-        </p>
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Rules about the game</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            The game is played with three possible hand signals that represent a
+            rock, paper, and scissors. The rock is a closed fist; paper is a
+            flat hand with fingers and thumb extended and the palm facing
+            downward; and scissors is a fist with the index and middle fingers
+            fully extended toward the opposing player. Rock wins against
+            scissors; paper wins against rock; and scissors wins against paper.
+            If both players throw the same hand signal, it is considered a tie,
+            and play resumes until there is a clear winner
+          </p>
+        </div>
+        <div class="modal-footer"></div>
       </div>
     </div>
 
